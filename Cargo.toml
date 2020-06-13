@@ -1,0 +1,17 @@
+[package]
+name = "rustyfingers"
+version = "0.1.0"
+authors = ["lesnyrumcajs <lesny.rumcajs@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1"
+termion = "1.5"
+rand = "0.7"
+
+[dev-dependencies]
+tempfile = "3.1"
+
+[[bin]]
+name = "play"
+path = "src/bin/play.rs"
